@@ -8,12 +8,6 @@ const {
     deletePizza
   } = require('../../controllers/pizza-controller');
 
-// /api/pizzas
-router
-  .route('/')
-  .get(getAllPizza)
-  .post(createPizza)
-
 // /api/pizzas/:id
 router
   .route('/:id')
